@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agi-house-hack"
+version = "0.1.0"
+description = ""
+authors = ["Kiryl Kliushkin <ikliuger@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+fastmcp = ">=2.11.0"
+zep-cloud = "^3.0.5"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
